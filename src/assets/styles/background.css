@@ -16,7 +16,11 @@
   height: 35rem;
   display: flex;
   margin: 2rem;
-  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: -5px 5px 8px rgba(72, 118, 235, 0.5);
+}
+
+.sec_div_style{
+  box-shadow: 5px -5px 8px rgba(72, 118, 235, 0.5);
 }
 
 .text_box_two {
@@ -40,7 +44,7 @@
 
 .text_box_two button {
   padding: 0.7rem 3rem;
-  border: 0.13rem solid black;
+  border: 0.13rem solid #4876eb;
   border-radius: 2rem;
   background-color: transparent;
 }

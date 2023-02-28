@@ -27,6 +27,8 @@
 
 .p_two{
     padding: 1rem;
+    font-size: 4rem;
+    font-family: 'Rampart One', cursive;
 }
 
 .btn_wrapper{
@@ -53,7 +55,7 @@
 }
 
 button{
-    border: .13rem solid black;
+    border: .13rem solid rgba(72, 118, 235, 1);
 }
 
 .profile_pic_wrapper{
