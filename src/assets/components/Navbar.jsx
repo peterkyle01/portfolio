@@ -11,21 +11,21 @@ function Navbar() {
     <header className="navbar">
       <div className="logo">
         <HashLink smooth to="/#home">
-          <span onClick={() => setMenu(true)}>Peter K.Mwangi</span>
+          <h1 onClick={() => setMenu(true)}>Peter K.Mwangi</h1>
         </HashLink>
         <div className="toggle_icon" onClick={() => setMenu(!menu)}>
-          {menu ? <FaBars /> : <FaTimes />}
+          {menu ? <FaBars size={20} /> : <FaTimes size={20} />}
         </div>
       </div>
       <nav className="menu">
         <ul className="ul_navbar">
           <li className="li_navbar">
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li className="li_navbar">
             <HashLink smooth to="/#background">
               Background
             </HashLink>
+          </li>
+          <li className="li_navbar">
+            <NavLink to="/about">About</NavLink>
           </li>
           <li className="li_navbar">
             <NavLink to="/contacts">Contacts</NavLink>

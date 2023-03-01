@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem 3rem;
+  z-index: 100;
 }
 
 .menu_responsive {
@@ -25,6 +26,9 @@ li a {
   color: black;
 }
 
+.logo h1{
+  font-size: 1.3rem;
+}
 .ul_navbar {
   list-style: none;
 }
@@ -60,7 +64,7 @@ li a {
     height: auto;
     top: 5rem;
     display: flex;
-    background-color: rgba(72, 118, 235, 0.5);
+    background-color:rgba(255, 255, 255,0.95);
     flex-direction: row;
     box-shadow: -5px 5px 8px rgba(0, 0, 0,0.5);
   }

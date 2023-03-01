@@ -1,0 +1,45 @@
+.div_wrapper {
+  position: relative;
+}
+
+.div_wrapper h1 {
+  position: relative;
+  top: 0;
+}
+
+.text_box_two p {
+  margin-top: 3rem;
+}
+
+.text_box_contacts_two {
+  align-items: flex-start;
+  position: relative;
+}
+
+.text_box_contacts_one {
+  flex: 2;
+}
+
+.text_box_contacts_two {
+  flex: 1;
+  background-color: var(--blue1);
+  color: white;
+}
+
+.text_box_contacts_two span {
+  margin-top: 1rem;
+  display: flex;
+  padding: 1rem;
+}
+
+.text_box_contacts_two span p {
+  padding:0;
+  margin: auto 1rem;
+}
+
+@media (max-width:425px) {
+    .text_box_contacts_two span{
+        margin-top: .5rem;
+        padding: 0;
+    }
+}
