@@ -12,10 +12,10 @@ function Background() {
           </p>
           <button>View Education</button>
         </div>
-        <div className="image_view"></div>
+        <div className="image_view" id="education"></div>
       </div>
       <div className="div_wrapper sec_div_style">
-        <div className="image_view"></div>
+        <div className="image_view" id="experience"></div>
         <div className="text_box_two">
           <h1>Experience</h1>
           <p>
@@ -32,7 +32,7 @@ function Background() {
           </p>
           <button>View Skills</button>
         </div>
-        <div className="image_view"></div>
+        <div className="image_view" id="skills"></div>
       </div>
     </section>
   );

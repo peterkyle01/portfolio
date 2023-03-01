@@ -38,12 +38,12 @@ function Navbar() {
         <nav className="menu_responsive">
           <ul className="ul_navbar_responsive">
             <li className="li_navbar_responsive" onClick={() => setMenu(true)}>
-              <NavLink to="/about">About</NavLink>
-            </li>
-            <li className="li_navbar_responsive" onClick={() => setMenu(true)}>
               <HashLink smooth to="/#background">
                 Background
               </HashLink>
+            </li>
+            <li className="li_navbar_responsive" onClick={() => setMenu(true)}>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li className="li_navbar_responsive" onClick={() => setMenu(true)}>
               <NavLink to="/contacts">Contacts</NavLink>

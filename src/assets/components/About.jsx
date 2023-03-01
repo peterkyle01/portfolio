@@ -7,7 +7,7 @@ function About() {
       <div className="div_wrapper ">
         <div className="text_box_two">
           <h1>About</h1>
-          <p>
+          <p id="about_p_tag">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
             expedita dolores sunt nesciunt suscipit corporis perferendis optio?
             Perspiciatis cupiditate ea molestiae. Assumenda blanditiis ducimus
@@ -15,7 +15,7 @@ function About() {
             Incidunt, eos. Vel odit sit laudantium?
           </p>
         </div>
-        <div className="image_view" id="about_image_responsive"></div>
+        <div className="image_view about" id="about_image_responsive"></div>
       </div>
     </div>
   );

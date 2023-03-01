@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+.about{
+  background: url("../images/about.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#about_p_tag{
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
   #about_image_responsive {
     display: none;

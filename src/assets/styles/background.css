@@ -19,7 +19,7 @@
   box-shadow: -5px 5px 8px rgba(72, 118, 235, 0.5);
 }
 
-.sec_div_style{
+.sec_div_style {
   box-shadow: 5px -5px 8px rgba(72, 118, 235, 0.5);
 }
 
@@ -33,17 +33,19 @@
 }
 
 .text_box_two h1 {
-  padding: .5rem;
+  padding: 0.5rem;
   font-family: "Comfortaa", cursive;
   font-size: 2rem;
 }
 
 .text_box_two p {
   padding: 2rem;
+  font-size: 1.4rem;
 }
 
 .text_box_two button {
   padding: 0.7rem 3rem;
+  margin-bottom: .5rem;
   border: 0.13rem solid #4876eb;
   border-radius: 2rem;
   background-color: transparent;
@@ -54,13 +56,28 @@
   background: url("../images/profile_pic.jpg");
 }
 
+#education {
+  background: url("../images/education.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
-@media (max-width: 768px){
+#experience {
+  background: url("../images/experience.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
-  .div_wrapper{
+#skills {
+  background: url("../images/skills.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .div_wrapper {
     display: flex;
     flex-direction: column;
     width: 85%;
   }
-    
 }
