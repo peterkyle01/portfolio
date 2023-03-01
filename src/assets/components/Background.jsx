@@ -26,11 +26,11 @@ function Background() {
       </div>
       <div className="div_wrapper">
         <div className="text_box_two">
-          <h1>Skills/Activities</h1>
+          <h1>Skills</h1>
           <p>
             Skills that i developed and activities that i participated proactively.
           </p>
-          <button>View Skills/Activities</button>
+          <button>View Skills</button>
         </div>
         <div className="image_view"></div>
       </div>

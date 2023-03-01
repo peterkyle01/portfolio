@@ -12,7 +12,7 @@
 }
 
 .div_wrapper {
-  width: 65%;
+  width: 75%;
   height: 35rem;
   display: flex;
   margin: 2rem;
@@ -52,4 +52,14 @@
   width: 100%;
   flex: 1;
   background: url("../images/profile_pic.jpg");
+}
+
+@media (max-width: 768px){
+
+  .div_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+    
 }
