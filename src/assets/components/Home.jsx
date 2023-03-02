@@ -1,4 +1,4 @@
-import "../styles/home.css"
+import "../styles/home.css";
 import Background from "./Background";
 
 function Home() {
@@ -11,8 +11,12 @@ function Home() {
           </p>
           <p className="p_two">Web Developer</p>
           <div className="btn_wrapper">
-            <a href="#"><button className="resume_btn">Resume</button></a>
-            <a href="https://www.linkedin.com/in/peter-mwangi-08a312265/" target="_blank">
+            <a href="#">
+              <button className="resume_btn">Resume</button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/peter-mwangi-08a312265/"
+              target="_blank">
               <button className="linkedIn_btn">LinkedIn</button>
             </a>
           </div>
@@ -26,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;
