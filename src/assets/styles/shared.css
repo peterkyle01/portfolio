@@ -22,3 +22,9 @@
     display: none;
   }
 }
+
+@media (max-width: 425px) {
+  #about_p_tag{
+    font-size: .85rem;
+  }
+}

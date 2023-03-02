@@ -11,7 +11,7 @@ function Home() {
           </p>
           <p className="p_two">Web Developer</p>
           <div className="btn_wrapper">
-            <a href="#">
+            <a download href="/resume/resume.pdf" >
               <button className="resume_btn">Resume</button>
             </a>
             <a
