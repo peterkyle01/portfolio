@@ -6,15 +6,19 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="icons">
-        <a href="https://github.com/peterkyle01" target="_blank">
+        <a
+          aria-label="Github"
+          href="https://github.com/peterkyle01"
+          target="_blank">
           <FaGithubSquare size={"2rem"} color="#4876eb" />
         </a>
         <a
+          aria-label="Linkedin"
           href="https://www.linkedin.com/in/peter-mwangi-08a312265/"
           target="_blank">
           <FaLinkedin size={"2rem"} color="#4876eb" />
         </a>
-        <a href="mailto:kylepeterkoine4@gmail.com">
+        <a aria-label="Email" href="mailto:kylepeterkoine4@gmail.com">
           <MdEmail size={"2.2rem"} color="#4876eb" />
         </a>
       </div>

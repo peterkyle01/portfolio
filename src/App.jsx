@@ -1,15 +1,16 @@
+import {lazy,Suspense} from 'react'
 import "./App.css";
-import Navbar from "./assets/components/Navbar";
+import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
 import SlideRoutes from "react-slide-routes";
-import Home from "./assets/components/Home";
-import About from "./assets/components/About";
-import Contacts from "./assets/components/Contacts";
-import Footer from "./assets/components/Footer";
-import Education from "./assets/components/Education";
-import Experience from "./assets/components/Experience";
-import Skills from "./assets/components/Skills";
 
+const Home = lazy(()=> import("./components/Home"))
+import About from "./components/About";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 
 function App() {
   return (
