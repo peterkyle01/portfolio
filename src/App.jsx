@@ -3,8 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
 import SlideRoutes from "react-slide-routes";
-
-const Home = lazy(()=> import("./components/Home"))
+import Home from "./components/Home"
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
